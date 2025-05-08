@@ -1,5 +1,5 @@
 import Head from "next/head";
-import MQTTSubscriber from "./components/MQTTSubscriber";
+import MQTTSub from "./components/MQTTSub";
 
 export default function Home() {
     return (
@@ -9,7 +9,7 @@ export default function Home() {
         </Head>
         <main>
           <h1>Welcome MQTT Web App</h1>
-          <MQTTSubscriber />
+          <MQTTSub />
         </main>
       </div>
     );
