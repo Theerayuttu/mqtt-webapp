@@ -13,6 +13,6 @@ export function connectMQTT() {
     // password: 'your_password',
   };
 
-  const client = mqtt.connect('ws://localhost:9001', options);
+  const client = mqtt.connect('ws://13.250.24.58:9001', options);
   return client;
 }
