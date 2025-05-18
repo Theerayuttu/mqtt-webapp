@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import DashboardChart from "./ฺDashboardChart";
+import DashboardChart from "./DashboardChart";
 
 type MqttData = {
   devices: number;
